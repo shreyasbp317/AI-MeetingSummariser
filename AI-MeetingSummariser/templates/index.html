@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PPT Summarizer</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI PowerPoint Summarizer</h1>
+
+        <div class="upload-section">
+            <h2>Upload PowerPoint File (.pptx)</h2>
+            <form id="pptForm">
+                <input type="file" id="pptFile" accept=".pptx" required>
+                <button type="submit">Summarize PPT</button>
+            </form>
+            <div class="status" id="status"></div>
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
